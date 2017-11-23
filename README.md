@@ -19,15 +19,15 @@ Rules:
 
 Deliveries Input Files:
 
-•	The proj5_delivery files can contain any number of deliveries. T1 has 2 deliveries with a total of 8 items (7 left over). T2 has 4 deliveries with a total of 100 items. T3 has 100 deliveries with a total of 3000 items.
+•	The grocer_delivery files can contain any number of deliveries. T1 has 2 deliveries with a total of 8 items (7 left over). T2 has 4 deliveries with a total of 100 items. T3 has 100 deliveries with a total of 3000 items.
 
-•	The trucks listed in the proj5_truck file is represented by the truck name, (usually truck1, truck2 etc) and its capacity.
+•	The trucks listed in the groccer_truck file is represented by the truck name, (usually truck1, truck2 etc) and its capacity.
 
-•	The deliveries listed in the proj5_delivery file is represented by Name, number of items, and roundtrip time for each delivery (roundtrip from store to customer). 
+•	The deliveries listed in the grocer_delivery file is represented by Name, number of items, and roundtrip time for each delivery (roundtrip from store to customer). 
 
-•	The items listed in the proj5_item file is represented by name (the names are not unique) and their weight (in tenths of pounds)
+•	The items listed in the grocer_item file is represented by name (the names are not unique) and their weight (in tenths of pounds)
 
-•	Below is a diagram showing the relationship between the deliveries and the item list. Each delivery is for a specific number of items. As in the first delivery for the Smith family, there are 3 items in the delivery. The second delivery, to the Jones family has 5 items in it. These would represent the first 8 items in the items list of 15. There will be 7 items remaining on the truck after the deliveries.
+•	Each delivery is for a specific number of items. As in the first delivery for the Smith family, there are 3 items in the delivery. The second delivery, to the Jones family has 5 items in it. These would represent the first 8 items in the items list of 15. There will be 7 items remaining on the truck after the deliveries.
 
 Delivery Rules:
 
