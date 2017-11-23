@@ -1,5 +1,6 @@
 # The-Grocer
 Truck Delivery Grocery Simulation (README for rules) May 2017
+Grade: A+ 100% (80/80)
 
 First run "make" in command line to compile.
 
