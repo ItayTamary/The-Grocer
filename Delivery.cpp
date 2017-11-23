@@ -37,12 +37,12 @@ string Delivery::GetName() const {
 // GetNumItem ()
 // Returns the number of items the customer ordered
 int Delivery::GetNumItem() const {
-	return m_numItem;
+  return m_numItem;
 }
 
 
 // GetRTMinute ()
 // Returns the amount of time (in minutes) it takes to deliver the order
 int Delivery::GetRTMinute() const {
-	return m_rtMinute;
+  return m_rtMinute;
 }
