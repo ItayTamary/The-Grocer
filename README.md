@@ -1,5 +1,5 @@
 # The-Grocer
-Truck Delivery Grocery Simulation (README for rules)
+Truck Delivery Grocery Simulation (README for rules) May 2017
 
 First run "make" in command line to compile.
 
