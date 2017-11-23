@@ -1,0 +1,145 @@
+Rubric for proj5
+Student: itay1
+
+-------------------------------------------------------------------------------
+
+Part 1: Basic Functionality and Class Implementation (14 points):
+##############################
+4/4 Tqueue is templated correctly
+4/4 Truck is templated correctly
+4/4 copy constructor and overloaded assignment for Tqueue are correct
+2/2 Item and Delivery correctly implemented
+--------------------------------------------------------------------------------
+
+Part 2: Read File (10 Points)
+##############################
+10/10 loads three files and stores all data in correct vectors
+
+--------------------------------------------------------------------------------
+
+Part 3: Basic Test Case (12 points)
+#############################
+4/4 File loading test - Run "make test1".
+    Should output:
+    Trucks Loaded: 1
+    Deliveries Loaded: 2
+    Items Loaded: 15
+    Start Time: 0
+
+8/8 Output Test - Run "make test1". Should finish with the following:
+     **Truck Name: Test_Truck1**
+     ***********Delivery 1*************
+     Delivery Time:21
+     Delivery for: TestName1
+     Delivered: 7
+     ***********Delivery 2*************
+     Delivery Time:54
+     Delivery for: TestName2
+     Delivered: 5
+
+     *****Items Left After Deliveries*****
+     Item 1 - Name: Frozen - Weight: 1.8
+     Item 2 - Name: Beverages - Weight: 2.4
+     Item 3 - Name: Dry/Baking - Weight: 2.8
+
+--------------------------------------------------------------------------------
+
+Part 4: Moderate Test Case (12 points)
+#############################
+4/4 File loading test - Run "make test2".
+    Trucks Loaded: 2
+    Deliveries Loaded: 4
+    Items Loaded: 76
+    Start Time: 0
+
+8/8 Output Test - Run "make test2". Should finish with the following:
+     **Truck Name: TestTruck1**
+     ***********Delivery 1*************
+     Delivery Time:44
+     Delivery for: TestName3
+     Delivered: 21
+     ***********Delivery 2*************
+     Delivery Time:58
+     Delivery for: TestName4
+     Delivered: 4
+
+     *****Loading Truck (TestTruck2)*****
+
+     **Truck Name: TestTruck2**
+     No deliveries
+
+     *****Items Left After Deliveries*****
+     Item 1 - Name: Dry/Baking - Weight: 1.3
+     Item 2 - Name: Dry/Baking - Weight: 1.1
+     Item 3 - Name: Dry/Baking - Weight: 1.6
+     Item 4 - Name: Dry/Baking - Weight: 0.4
+
+--------------------------------------------------------------------------------
+
+Part 4: Advanced Test Case (12 points)
+#############################
+4/4 File loading test - Run "make test2".
+    Trucks Loaded: 3
+    Deliveries Loaded: 100
+    Items Loaded: 3003
+    Start Time: 0
+
+8/8 Output Test - Run "make test2". Should finish with the following:
+     **Truck Name: TestTruck1**
+     ***********Delivery 1*************
+     Delivery Time:1590
+     Delivery for: TestNum97
+     Delivered: 51
+     ***********Delivery 2*************
+     Delivery Time:1688
+     Delivery for: TestNum98
+     Delivered: 22
+     ***********Delivery 3*************
+     Delivery Time:1787
+     Delivery for: TestNum99
+     Delivered: 18
+     ***********Delivery 4*************
+     Delivery Time:1887
+     Delivery for: TestNum100
+     Delivered: 47
+
+     *****Loading Truck (TestTruck2)*****
+     **0 items loaded.
+
+     **Truck Name: TestTruck2**
+     No deliveries
+
+     *****Loading Truck (TestTruck3)*****
+     **0 items loaded.
+
+     **Truck Name: TestTruck3**
+     No deliveries
+
+     *****Items Left After Deliveries*****
+     Item 1 - Name: Meat - Weight: 1.1
+     Item 2 - Name: Frozen - Weight: 1.1
+     Item 3 - Name: Personal - Weight: 1.1
+
+--------------------------------------------------------------------------------
+
+Part 6: Memory Management (valgrind) and errors (12 points):
+#########################################
+4/4 -- "make val1" returns no memory leaks and no errors
+4/4 -- "make val2" returns no memory leaks and no errors
+4/4 -- "make val3" returns no memory leaks and no errors
+
+--------------------------------------------------------------------------------
+
+Part 7: Following overall guidelines (8 points):
+#########################################
+4/4 -- commenting (function headers, etc.)
+4/4 -- other coding standards
+
+--------------------------------------------------------------------------------
+
+Comments:
+##############################
+Great Job!
+
+
+TOTAL: 80.0/80.0
